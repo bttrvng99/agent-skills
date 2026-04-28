@@ -9,7 +9,27 @@ Reusable AI agent skills shared across projects.
 
 ## Usage in any project
 
-Add as a git submodule:
+### Option 1 — npx (recommended)
+
+Add a skill directly into your project without installing anything:
+
+```bash
+# List all available skills
+npx github:bttrvng99/agent-skills list
+
+# Add a specific skill (copies into .agents/skills/<skill-name>/)
+npx github:bttrvng99/agent-skills add auto-commit
+
+# Add to a custom destination
+npx github:bttrvng99/agent-skills add auto-commit --dest .cursor/skills
+```
+
+> Skills are copied into `.agents/skills/<skill-name>/` by default.
+> Run the command again to pull the latest version of a skill.
+
+### Option 2 — Git submodule
+
+Add the whole repo as a submodule to get all skills at once:
 
 ```bash
 git submodule add https://github.com/bttrvng99/agent-skills .agents/skills-shared
