@@ -1,0 +1,27 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Reusable AI agent skills shared across projects",
+  "bin": {
+    "agent-skills": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skills"
+  ],
+  "keywords": [
+    "agent",
+    "skills",
+    "ai",
+    "cli"
+  ],
+  "author": "bttrvng99",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bttrvng99/agent-skills.git"
+  }
+}
