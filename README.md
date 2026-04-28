@@ -12,7 +12,7 @@ Reusable AI agent skills shared across projects.
 Add as a git submodule:
 
 ```bash
-git submodule add <YOUR_REPO_URL> .agents/skills-shared
+git submodule add https://github.com/bttrvng99/agent-skills .agents/skills-shared
 git submodule update --init --recursive
 ```
 
